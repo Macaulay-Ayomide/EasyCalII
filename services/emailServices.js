@@ -1,6 +1,6 @@
-const logger = require("../utils/logger");
+const logger = require("/opt/render/project/src/utils/logger");
 const nodemailer = require("nodemailer");
-const config = require("../utils/config");
+const config = require("/opt/render/project/src/utils/config");
 
 //Send Emails
 const sendEmail = async (
