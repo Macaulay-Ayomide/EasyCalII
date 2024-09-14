@@ -1,4 +1,4 @@
-const logger = require("../utils/logger");
+const logger = require("/opt/render/project/src/utils/logger");
 
 const calculateWeightedAverage = (salaries) => {
   try {
