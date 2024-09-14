@@ -1,8 +1,8 @@
-const logger = require("../utils/logger");
-const config = require("../utils/config");
+const logger = require("/opt/render/project/src/utils/logger");
+const config = require("/opt/render/project/src/utils/config");
 const jwt = require("jsonwebtoken");
-const userServices = require("../services/userServices");
-//const redisService = require("../services/redisService");
+const userServices = require("/opt/render/project/src/services/userServices");
+//const redisService = require("/opt/render/project/src/services/redisService");
 
 const verifyToken = async (req, res, next) => {
   try {
