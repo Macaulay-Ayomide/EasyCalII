@@ -1,6 +1,6 @@
-const debtServices = require("../services/debtServices");
-const logger = require("../utils/logger");
-const userServices = require("../services/userServices");
+const debtServices = require("/opt/render/project/src/services/debtServices");
+const logger = require("/opt/render/project/src/utils/logger");
+const userServices = require("/opt/render/project/src/services/userServices");
 
 const getDebt = async (req, res, next) => {
   try {
