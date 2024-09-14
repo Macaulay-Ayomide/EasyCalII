@@ -1,5 +1,5 @@
-const Debt = require("../models/debtModel");
-const logger = require("../utils/logger");
+const Debt = require("/opt/render/project/src/models/debtModel");
+const logger = require("/opt/render/project/src/utils/logger");
 
 const findDebtById = async (debtId) => {
   try {
