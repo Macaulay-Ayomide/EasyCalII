@@ -1,5 +1,5 @@
-const User = require("../models/userModel");
-const debtServices = require("../services/debtServices");
+const User = require("/opt/render/project/src/models/userModel");
+const debtServices = require("/opt/render/project/src/services/debtServices");
 const logger = require("../utils/logger");
 
 const findUserByOne = async (field, value) => {
