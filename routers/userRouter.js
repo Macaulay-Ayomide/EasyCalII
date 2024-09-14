@@ -1,9 +1,9 @@
 const express = require("express");
-const validate = require("../utils/validate");
-const schema = require("../schema/validator");
-const userController = require("../controllers/userControllers");
+const validate = require("/opt/render/project/src/utils/validate");
+const schema = require("/opt/render/project/src/schema/validator");
+const userController = require("/opt/render/project/src/controllers/userControllers");
 const userrouter = express.Router();
-const middleware = require("../utils/middleware");
+const middleware = require("/opt/render/project/src/utils/middleware");
 
 userrouter.post(
   "/signup",
