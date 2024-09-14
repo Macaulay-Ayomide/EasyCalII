@@ -1,9 +1,9 @@
 const express = require("express");
-const validate = require("../utils/validate");
-const schema = require("../schema/calculatorValidator");
-const calculatorController = require("../controllers/calculatorControlers");
+const validate = require("/opt/render/project/src/utils/validate");
+const schema = require("/opt/render/project/src/schema/calculatorValidator");
+const calculatorController = require("/opt/render/project/src/controllers/calculatorControlers");
 const debtrouter = express.Router();
-const middleware = require("../utils/middleware");
+const middleware = require("/opt/render/project/src/utils/middleware");
 
 debtrouter.get(
   "/average",
