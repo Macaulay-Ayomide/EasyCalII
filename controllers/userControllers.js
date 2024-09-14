@@ -1,12 +1,12 @@
-const userServices = require("../services/userServices");
-const logger = require("../utils/logger");
+const userServices = require("/opt/render/project/src/services/userServices");
+const logger = require("/opt/render/project/src/utils/logger");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const config = require("../utils/config");
-const otpServices = require("../services/otpServices");
-const emailServices = require("../services/emailServices");
-const calculatorServices = require("../services/calculatorServices");
-const debtServices = require("../services/debtServices");
+const config = require("/opt/render/project/src/utils/config");
+const otpServices = require("/opt/render/project/src/services/otpServices");
+const emailServices = require("/opt/render/project/src/services/emailServices");
+const calculatorServices = require("/opt/render/project/src/services/calculatorServices");
+const debtServices = require("/opt/render/project/src/services/debtServices");
 
 const signup = async (req, res, next) => {
   const { username, email, password } = req.body;
