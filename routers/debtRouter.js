@@ -1,9 +1,9 @@
 const express = require("express");
-const validate = require("../utils/validate");
-const schema = require("../schema/debtValidator");
-const debtController = require("../controllers/DebtControllers");
+const validate = require("/opt/render/project/src/utils/validate");
+const schema = require("/opt/render/project/src/schema/debtValidator");
+const debtController = require("/opt/render/project/src/controllers/DebtControllers");
 const debtrouter = express.Router();
-const middleware = require("../utils/middleware");
+const middleware = require("/opt/render/project/src/utils/middleware");
 
 debtrouter.post(
   "/:id",
