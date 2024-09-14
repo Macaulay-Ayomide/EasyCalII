@@ -1,5 +1,5 @@
-const Otp = require("../models/otpmodel");
-const logger = require("../utils/logger");
+const Otp = require("/opt/render/project/src/models/otpmodel");
+const logger = require("/opt/render/project/src/utils/logger");
 const bcrypt = require("bcryptjs");
 
 const deleteUserOtpsByUserId = async (userId) => {
